@@ -1,5 +1,5 @@
 //
-//  MDF1FirstViewController.h
+//  MDF1ThirdViewController.h
 //  MDF1Project2
 //
 //  Created by Brenna Pavlinchak on 12/5/13.
@@ -8,11 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MDF1FirstViewController : UIViewController
-{
-    
-}
-
--(IBAction)onClick:(id)sender;
+@interface MDF1ThirdViewController : UIViewController
 
 @end

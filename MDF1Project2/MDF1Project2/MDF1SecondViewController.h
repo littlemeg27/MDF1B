@@ -8,6 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MDF1SecondViewController : UIViewController
+@interface MDF1SecondViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+{
+    IBOutlet UITableView *tableView;
+    
+    NSMutableArray *array1;
+    NSMutableArray *array2;
+    UIAlertView *editAlert;
+    BOOL editMode;
+    
+    IBOutlet UIButton *editButton;
+}
 
 @end

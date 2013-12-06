@@ -1,5 +1,5 @@
 //
-//  MDF1FirstViewController.h
+//  SecondPopViewController.h
 //  MDF1Project2
 //
 //  Created by Brenna Pavlinchak on 12/5/13.
@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MDF1FirstViewController : UIViewController
+@interface SecondPopViewController : UIViewController
 {
     
 }
 
--(IBAction)onClick:(id)sender;
+-(IBAction)backButton:(id)sender;
 
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "MDF1FirstViewController.h"
+#import "FirstPopViewController.h"
 
 @interface MDF1FirstViewController ()
 
@@ -18,7 +19,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = NSLocalizedString(@"First", @"First");
+        self.title = NSLocalizedString(@"Home", @"Home");
         self.tabBarItem.image = [UIImage imageNamed:@"first"];
     }
     return self;
@@ -34,6 +35,23 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    self.title = @"Home"; //Title of the app
+    self.navigationController.navigationBar.tintColor = [UIColor blackColor]; //Color
+    [super viewWillAppear:animated];
+}
+
+-(IBAction)onClick:(id)sender
+{
+    FirstPopViewController *firstView = [[FirstPopViewController alloc] initWithNibName:@"FirstPopView" bundle:nil];
+    
+    if(firstView !=nil)
+    {
+        [self.navigationController pushViewController:firstView animated:TRUE]; //Makes the move to the first view
+    }
 }
 
 @end

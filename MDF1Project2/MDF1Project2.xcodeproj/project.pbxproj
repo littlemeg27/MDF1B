@@ -22,15 +22,23 @@
 		BAC1F37F18516A8F0072F203 /* MDF1SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC1F37E18516A8F0072F203 /* MDF1SecondViewController.m */; };
 		BAC1F38118516A8F0072F203 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1F38018516A8F0072F203 /* second.png */; };
 		BAC1F38318516A8F0072F203 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1F38218516A8F0072F203 /* second@2x.png */; };
-		BAC1F38618516A8F0072F203 /* MDF1FirstViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAC1F38418516A8F0072F203 /* MDF1FirstViewController_iPhone.xib */; };
 		BAC1F38918516A8F0072F203 /* MDF1FirstViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAC1F38718516A8F0072F203 /* MDF1FirstViewController_iPad.xib */; };
-		BAC1F38C18516A8F0072F203 /* MDF1SecondViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAC1F38A18516A8F0072F203 /* MDF1SecondViewController_iPhone.xib */; };
 		BAC1F38F18516A8F0072F203 /* MDF1SecondViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAC1F38D18516A8F0072F203 /* MDF1SecondViewController_iPad.xib */; };
 		BAC1F39718516A8F0072F203 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC1F39618516A8F0072F203 /* SenTestingKit.framework */; };
 		BAC1F39818516A8F0072F203 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC1F35E18516A8F0072F203 /* UIKit.framework */; };
 		BAC1F39918516A8F0072F203 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC1F36018516A8F0072F203 /* Foundation.framework */; };
 		BAC1F3A118516A8F0072F203 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAC1F39F18516A8F0072F203 /* InfoPlist.strings */; };
 		BAC1F3A418516A8F0072F203 /* MDF1Project2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC1F3A318516A8F0072F203 /* MDF1Project2Tests.m */; };
+		BAC1F3AE18516B250072F203 /* MDF1ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAC1F3AD18516B250072F203 /* MDF1ThirdViewController.xib */; };
+		BAC1F3B118516B510072F203 /* MDF1ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC1F3B018516B510072F203 /* MDF1ThirdViewController.m */; };
+		BAC1F3B318516D680072F203 /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAC1F3B218516D680072F203 /* DetailView.xib */; };
+		BAC1F3B618516D880072F203 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC1F3B518516D880072F203 /* DetailViewController.m */; };
+		BAC1F3B8185173610072F203 /* FirstPopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAC1F3B7185173610072F203 /* FirstPopView.xib */; };
+		BAC1F3BB1851737C0072F203 /* FirstPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC1F3BA1851737C0072F203 /* FirstPopViewController.m */; };
+		BAC1F3BD185173B80072F203 /* SecondPopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAC1F3BC185173B80072F203 /* SecondPopView.xib */; };
+		BAC1F3C0185173CE0072F203 /* SecondPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC1F3BF185173CE0072F203 /* SecondPopViewController.m */; };
+		BAC1F3C2185183020072F203 /* raven-soaringIcon2.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1F3C1185183020072F203 /* raven-soaringIcon2.png */; };
+		BAC1F3C41851830C0072F203 /* raven-soaringIcon1.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1F3C31851830C0072F203 /* raven-soaringIcon1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,9 +73,7 @@
 		BAC1F37E18516A8F0072F203 /* MDF1SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDF1SecondViewController.m; sourceTree = "<group>"; };
 		BAC1F38018516A8F0072F203 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		BAC1F38218516A8F0072F203 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		BAC1F38518516A8F0072F203 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MDF1FirstViewController_iPhone.xib; sourceTree = "<group>"; };
 		BAC1F38818516A8F0072F203 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MDF1FirstViewController_iPad.xib; sourceTree = "<group>"; };
-		BAC1F38B18516A8F0072F203 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MDF1SecondViewController_iPhone.xib; sourceTree = "<group>"; };
 		BAC1F38E18516A8F0072F203 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MDF1SecondViewController_iPad.xib; sourceTree = "<group>"; };
 		BAC1F39518516A8F0072F203 /* MDF1Project2Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDF1Project2Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAC1F39618516A8F0072F203 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -75,6 +81,20 @@
 		BAC1F3A018516A8F0072F203 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BAC1F3A218516A8F0072F203 /* MDF1Project2Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDF1Project2Tests.h; sourceTree = "<group>"; };
 		BAC1F3A318516A8F0072F203 /* MDF1Project2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDF1Project2Tests.m; sourceTree = "<group>"; };
+		BAC1F3AD18516B250072F203 /* MDF1ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MDF1ThirdViewController.xib; sourceTree = "<group>"; };
+		BAC1F3AF18516B510072F203 /* MDF1ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDF1ThirdViewController.h; sourceTree = "<group>"; };
+		BAC1F3B018516B510072F203 /* MDF1ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDF1ThirdViewController.m; sourceTree = "<group>"; };
+		BAC1F3B218516D680072F203 /* DetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailView.xib; sourceTree = "<group>"; };
+		BAC1F3B418516D880072F203 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		BAC1F3B518516D880072F203 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		BAC1F3B7185173610072F203 /* FirstPopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstPopView.xib; sourceTree = "<group>"; };
+		BAC1F3B91851737C0072F203 /* FirstPopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstPopViewController.h; sourceTree = "<group>"; };
+		BAC1F3BA1851737C0072F203 /* FirstPopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstPopViewController.m; sourceTree = "<group>"; };
+		BAC1F3BC185173B80072F203 /* SecondPopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondPopView.xib; sourceTree = "<group>"; };
+		BAC1F3BE185173CD0072F203 /* SecondPopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondPopViewController.h; sourceTree = "<group>"; };
+		BAC1F3BF185173CE0072F203 /* SecondPopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondPopViewController.m; sourceTree = "<group>"; };
+		BAC1F3C1185183020072F203 /* raven-soaringIcon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "raven-soaringIcon2.png"; sourceTree = "<group>"; };
+		BAC1F3C31851830C0072F203 /* raven-soaringIcon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "raven-soaringIcon1.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +124,8 @@
 		BAC1F35218516A8F0072F203 = {
 			isa = PBXGroup;
 			children = (
+				BAC1F3C31851830C0072F203 /* raven-soaringIcon1.png */,
+				BAC1F3C1185183020072F203 /* raven-soaringIcon2.png */,
 				BAC1F36418516A8F0072F203 /* MDF1Project2 */,
 				BAC1F39C18516A8F0072F203 /* MDF1Project2Tests */,
 				BAC1F35D18516A8F0072F203 /* Frameworks */,
@@ -138,17 +160,27 @@
 				BAC1F36E18516A8F0072F203 /* MDF1AppDelegate.m */,
 				BAC1F37618516A8F0072F203 /* MDF1FirstViewController.h */,
 				BAC1F37718516A8F0072F203 /* MDF1FirstViewController.m */,
+				BAC1F38718516A8F0072F203 /* MDF1FirstViewController_iPad.xib */,
 				BAC1F37918516A8F0072F203 /* first.png */,
 				BAC1F37B18516A8F0072F203 /* first@2x.png */,
 				BAC1F37D18516A8F0072F203 /* MDF1SecondViewController.h */,
 				BAC1F37E18516A8F0072F203 /* MDF1SecondViewController.m */,
+				BAC1F38D18516A8F0072F203 /* MDF1SecondViewController_iPad.xib */,
 				BAC1F38018516A8F0072F203 /* second.png */,
 				BAC1F38218516A8F0072F203 /* second@2x.png */,
-				BAC1F38418516A8F0072F203 /* MDF1FirstViewController_iPhone.xib */,
-				BAC1F38718516A8F0072F203 /* MDF1FirstViewController_iPad.xib */,
-				BAC1F38A18516A8F0072F203 /* MDF1SecondViewController_iPhone.xib */,
-				BAC1F38D18516A8F0072F203 /* MDF1SecondViewController_iPad.xib */,
+				BAC1F3AF18516B510072F203 /* MDF1ThirdViewController.h */,
+				BAC1F3B018516B510072F203 /* MDF1ThirdViewController.m */,
+				BAC1F3AD18516B250072F203 /* MDF1ThirdViewController.xib */,
 				BAC1F36518516A8F0072F203 /* Supporting Files */,
+				BAC1F3B418516D880072F203 /* DetailViewController.h */,
+				BAC1F3B518516D880072F203 /* DetailViewController.m */,
+				BAC1F3B218516D680072F203 /* DetailView.xib */,
+				BAC1F3B91851737C0072F203 /* FirstPopViewController.h */,
+				BAC1F3BA1851737C0072F203 /* FirstPopViewController.m */,
+				BAC1F3B7185173610072F203 /* FirstPopView.xib */,
+				BAC1F3BE185173CD0072F203 /* SecondPopViewController.h */,
+				BAC1F3BF185173CE0072F203 /* SecondPopViewController.m */,
+				BAC1F3BC185173B80072F203 /* SecondPopView.xib */,
 			);
 			path = MDF1Project2;
 			sourceTree = "<group>";
@@ -266,10 +298,14 @@
 				BAC1F37C18516A8F0072F203 /* first@2x.png in Resources */,
 				BAC1F38118516A8F0072F203 /* second.png in Resources */,
 				BAC1F38318516A8F0072F203 /* second@2x.png in Resources */,
-				BAC1F38618516A8F0072F203 /* MDF1FirstViewController_iPhone.xib in Resources */,
 				BAC1F38918516A8F0072F203 /* MDF1FirstViewController_iPad.xib in Resources */,
-				BAC1F38C18516A8F0072F203 /* MDF1SecondViewController_iPhone.xib in Resources */,
 				BAC1F38F18516A8F0072F203 /* MDF1SecondViewController_iPad.xib in Resources */,
+				BAC1F3AE18516B250072F203 /* MDF1ThirdViewController.xib in Resources */,
+				BAC1F3B318516D680072F203 /* DetailView.xib in Resources */,
+				BAC1F3B8185173610072F203 /* FirstPopView.xib in Resources */,
+				BAC1F3BD185173B80072F203 /* SecondPopView.xib in Resources */,
+				BAC1F3C2185183020072F203 /* raven-soaringIcon2.png in Resources */,
+				BAC1F3C41851830C0072F203 /* raven-soaringIcon1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +344,10 @@
 				BAC1F36F18516A8F0072F203 /* MDF1AppDelegate.m in Sources */,
 				BAC1F37818516A8F0072F203 /* MDF1FirstViewController.m in Sources */,
 				BAC1F37F18516A8F0072F203 /* MDF1SecondViewController.m in Sources */,
+				BAC1F3B118516B510072F203 /* MDF1ThirdViewController.m in Sources */,
+				BAC1F3B618516D880072F203 /* DetailViewController.m in Sources */,
+				BAC1F3BB1851737C0072F203 /* FirstPopViewController.m in Sources */,
+				BAC1F3C0185173CE0072F203 /* SecondPopViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,28 +378,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		BAC1F38418516A8F0072F203 /* MDF1FirstViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BAC1F38518516A8F0072F203 /* en */,
-			);
-			name = MDF1FirstViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
 		BAC1F38718516A8F0072F203 /* MDF1FirstViewController_iPad.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				BAC1F38818516A8F0072F203 /* en */,
 			);
 			name = MDF1FirstViewController_iPad.xib;
-			sourceTree = "<group>";
-		};
-		BAC1F38A18516A8F0072F203 /* MDF1SecondViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BAC1F38B18516A8F0072F203 /* en */,
-			);
-			name = MDF1SecondViewController_iPhone.xib;
 			sourceTree = "<group>";
 		};
 		BAC1F38D18516A8F0072F203 /* MDF1SecondViewController_iPad.xib */ = {

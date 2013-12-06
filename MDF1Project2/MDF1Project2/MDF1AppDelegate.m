@@ -7,31 +7,33 @@
 //
 
 #import "MDF1AppDelegate.h"
-
 #import "MDF1FirstViewController.h"
-
 #import "MDF1SecondViewController.h"
+#import "MDF1ThirdViewController.h"
+#import "DetailViewController.h"
 
 @implementation MDF1AppDelegate
-
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    UIViewController *viewController1, *viewController2;
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        viewController1 = [[MDF1FirstViewController alloc] initWithNibName:@"MDF1FirstViewController_iPhone" bundle:nil];
-        viewController2 = [[MDF1SecondViewController alloc] initWithNibName:@"MDF1SecondViewController_iPhone" bundle:nil];
-    } else {
-        viewController1 = [[MDF1FirstViewController alloc] initWithNibName:@"MDF1FirstViewController_iPad" bundle:nil];
-        viewController2 = [[MDF1SecondViewController alloc] initWithNibName:@"MDF1SecondViewController_iPad" bundle:nil];
+    
+    - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+    {
+        self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+        // Override point for customization after application launch.
+        
+        MDF1FirstViewController *viewController = [[MDF1FirstViewController alloc] initWithNibName:@"MDF1FirstViewController_iPad" bundle:nil]; //This is the child view
+        UINavigationController *theNavController = [[UINavigationController alloc] initWithRootViewController: viewController]; //This is the nav controller the home page
+        UIViewController *secondViewController = [[MDF1SecondViewController alloc] initWithNibName:@"MDF1SecondViewController_iPad" bundle:nil]; //This is the second view
+        UINavigationController *SVCNavController = [[UINavigationController alloc] initWithRootViewController: secondViewController]; //This is the nav controller the second page
+        //Trying to have a UI Nac Bar.....not working so well
+        UIViewController *thirdViewController = [[MDF1ThirdViewController alloc] initWithNibName:@"MDF1ThirdViewController" bundle:nil]; //This is the third tab view
+        UINavigationController *TVCNavController = [[UINavigationController alloc] initWithRootViewController: secondViewController]; //This is the nav controller the third page
+        
+        self.tabBarController = [[UITabBarController alloc] init]; //Thing for the tabs
+        
+        self.tabBarController.viewControllers = @[theNavController, secondViewController, thirdViewController];
+        self.window.rootViewController = self.tabBarController;
+        [self.window makeKeyAndVisible];
+        return YES;
     }
-    self.tabBarController = [[UITabBarController alloc] init];
-    self.tabBarController.viewControllers = @[viewController1, viewController2];
-    self.window.rootViewController = self.tabBarController;
-    [self.window makeKeyAndVisible];
-    return YES;
-}
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
