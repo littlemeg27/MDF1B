@@ -22,15 +22,17 @@
 		BAC1F3F2185A2F3C0072F203 /* MDF1SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC1F3F1185A2F3C0072F203 /* MDF1SecondViewController.m */; };
 		BAC1F3F4185A2F3C0072F203 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1F3F3185A2F3C0072F203 /* second.png */; };
 		BAC1F3F6185A2F3C0072F203 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC1F3F5185A2F3C0072F203 /* second@2x.png */; };
-		BAC1F3F9185A2F3C0072F203 /* MDF1FirstViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAC1F3F7185A2F3C0072F203 /* MDF1FirstViewController_iPhone.xib */; };
 		BAC1F3FC185A2F3C0072F203 /* MDF1FirstViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAC1F3FA185A2F3C0072F203 /* MDF1FirstViewController_iPad.xib */; };
-		BAC1F3FF185A2F3C0072F203 /* MDF1SecondViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAC1F3FD185A2F3C0072F203 /* MDF1SecondViewController_iPhone.xib */; };
 		BAC1F402185A2F3C0072F203 /* MDF1SecondViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAC1F400185A2F3C0072F203 /* MDF1SecondViewController_iPad.xib */; };
 		BAC1F40A185A2F3C0072F203 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC1F409185A2F3C0072F203 /* SenTestingKit.framework */; };
 		BAC1F40B185A2F3C0072F203 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC1F3D1185A2F3C0072F203 /* UIKit.framework */; };
 		BAC1F40C185A2F3C0072F203 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC1F3D3185A2F3C0072F203 /* Foundation.framework */; };
 		BAC1F414185A2F3C0072F203 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAC1F412185A2F3C0072F203 /* InfoPlist.strings */; };
 		BAC1F417185A2F3C0072F203 /* MDF1Project3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC1F416185A2F3C0072F203 /* MDF1Project3Tests.m */; };
+		BAC1F422185A55500072F203 /* ApplicationState.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC1F421185A55500072F203 /* ApplicationState.m */; };
+		BAC1F425185A55AF0072F203 /* CustomObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC1F424185A55AF0072F203 /* CustomObject.m */; };
+		BAC1F427185A5DD80072F203 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC1F426185A5DD80072F203 /* CoreLocation.framework */; };
+		BAC1F429185A5DEA0072F203 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC1F428185A5DE90072F203 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,9 +67,7 @@
 		BAC1F3F1185A2F3C0072F203 /* MDF1SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDF1SecondViewController.m; sourceTree = "<group>"; };
 		BAC1F3F3185A2F3C0072F203 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		BAC1F3F5185A2F3C0072F203 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		BAC1F3F8185A2F3C0072F203 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MDF1FirstViewController_iPhone.xib; sourceTree = "<group>"; };
 		BAC1F3FB185A2F3C0072F203 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MDF1FirstViewController_iPad.xib; sourceTree = "<group>"; };
-		BAC1F3FE185A2F3C0072F203 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MDF1SecondViewController_iPhone.xib; sourceTree = "<group>"; };
 		BAC1F401185A2F3C0072F203 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MDF1SecondViewController_iPad.xib; sourceTree = "<group>"; };
 		BAC1F408185A2F3C0072F203 /* MDF1Project3Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDF1Project3Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAC1F409185A2F3C0072F203 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -75,6 +75,12 @@
 		BAC1F413185A2F3C0072F203 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BAC1F415185A2F3C0072F203 /* MDF1Project3Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDF1Project3Tests.h; sourceTree = "<group>"; };
 		BAC1F416185A2F3C0072F203 /* MDF1Project3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDF1Project3Tests.m; sourceTree = "<group>"; };
+		BAC1F420185A55500072F203 /* ApplicationState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationState.h; sourceTree = "<group>"; };
+		BAC1F421185A55500072F203 /* ApplicationState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationState.m; sourceTree = "<group>"; };
+		BAC1F423185A55AF0072F203 /* CustomObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomObject.h; sourceTree = "<group>"; };
+		BAC1F424185A55AF0072F203 /* CustomObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomObject.m; sourceTree = "<group>"; };
+		BAC1F426185A5DD80072F203 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BAC1F428185A5DE90072F203 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAC1F429185A5DEA0072F203 /* MapKit.framework in Frameworks */,
+				BAC1F427185A5DD80072F203 /* CoreLocation.framework in Frameworks */,
 				BAC1F3D2185A2F3C0072F203 /* UIKit.framework in Frameworks */,
 				BAC1F3D4185A2F3C0072F203 /* Foundation.framework in Frameworks */,
 				BAC1F3D6185A2F3C0072F203 /* CoreGraphics.framework in Frameworks */,
@@ -123,6 +131,8 @@
 		BAC1F3D0185A2F3C0072F203 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BAC1F428185A5DE90072F203 /* MapKit.framework */,
+				BAC1F426185A5DD80072F203 /* CoreLocation.framework */,
 				BAC1F3D1185A2F3C0072F203 /* UIKit.framework */,
 				BAC1F3D3185A2F3C0072F203 /* Foundation.framework */,
 				BAC1F3D5185A2F3C0072F203 /* CoreGraphics.framework */,
@@ -144,11 +154,13 @@
 				BAC1F3F1185A2F3C0072F203 /* MDF1SecondViewController.m */,
 				BAC1F3F3185A2F3C0072F203 /* second.png */,
 				BAC1F3F5185A2F3C0072F203 /* second@2x.png */,
-				BAC1F3F7185A2F3C0072F203 /* MDF1FirstViewController_iPhone.xib */,
 				BAC1F3FA185A2F3C0072F203 /* MDF1FirstViewController_iPad.xib */,
-				BAC1F3FD185A2F3C0072F203 /* MDF1SecondViewController_iPhone.xib */,
 				BAC1F400185A2F3C0072F203 /* MDF1SecondViewController_iPad.xib */,
 				BAC1F3D8185A2F3C0072F203 /* Supporting Files */,
+				BAC1F420185A55500072F203 /* ApplicationState.h */,
+				BAC1F421185A55500072F203 /* ApplicationState.m */,
+				BAC1F423185A55AF0072F203 /* CustomObject.h */,
+				BAC1F424185A55AF0072F203 /* CustomObject.m */,
 			);
 			path = MDF1Project3;
 			sourceTree = "<group>";
@@ -266,9 +278,7 @@
 				BAC1F3EF185A2F3C0072F203 /* first@2x.png in Resources */,
 				BAC1F3F4185A2F3C0072F203 /* second.png in Resources */,
 				BAC1F3F6185A2F3C0072F203 /* second@2x.png in Resources */,
-				BAC1F3F9185A2F3C0072F203 /* MDF1FirstViewController_iPhone.xib in Resources */,
 				BAC1F3FC185A2F3C0072F203 /* MDF1FirstViewController_iPad.xib in Resources */,
-				BAC1F3FF185A2F3C0072F203 /* MDF1SecondViewController_iPhone.xib in Resources */,
 				BAC1F402185A2F3C0072F203 /* MDF1SecondViewController_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +318,8 @@
 				BAC1F3E2185A2F3C0072F203 /* MDF1AppDelegate.m in Sources */,
 				BAC1F3EB185A2F3C0072F203 /* MDF1FirstViewController.m in Sources */,
 				BAC1F3F2185A2F3C0072F203 /* MDF1SecondViewController.m in Sources */,
+				BAC1F422185A55500072F203 /* ApplicationState.m in Sources */,
+				BAC1F425185A55AF0072F203 /* CustomObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,28 +350,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		BAC1F3F7185A2F3C0072F203 /* MDF1FirstViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BAC1F3F8185A2F3C0072F203 /* en */,
-			);
-			name = MDF1FirstViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
 		BAC1F3FA185A2F3C0072F203 /* MDF1FirstViewController_iPad.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				BAC1F3FB185A2F3C0072F203 /* en */,
 			);
 			name = MDF1FirstViewController_iPad.xib;
-			sourceTree = "<group>";
-		};
-		BAC1F3FD185A2F3C0072F203 /* MDF1SecondViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BAC1F3FE185A2F3C0072F203 /* en */,
-			);
-			name = MDF1SecondViewController_iPhone.xib;
 			sourceTree = "<group>";
 		};
 		BAC1F400185A2F3C0072F203 /* MDF1SecondViewController_iPad.xib */ = {
